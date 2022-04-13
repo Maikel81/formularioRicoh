@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="formulario.bussines.model.Usuario">
+		<field name="uuid" type="String" />
+		<field name="usuarioId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="nombre" type="String" />
+		<field name="apellidos" type="String" />
+		<field name="correo" type="String" />
+		<field name="fecha_nac" type="Date" />
+	</model>
+</model-hints>

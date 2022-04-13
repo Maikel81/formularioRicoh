@@ -1,0 +1,10 @@
+Bundle-Name: formulario-bussines-api
+Bundle-SymbolicName: formulario.bussines.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	formulario.bussines.exception,\
+	formulario.bussines.model,\
+	formulario.bussines.service,\
+	formulario.bussines.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../formulario-bussines-service/service.xml
